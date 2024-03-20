@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Bai Jamjuree", sans-serif;
+  /* display: flex; */
 }
 h1,
 h2,
@@ -16,7 +17,7 @@ p {
   margin: 0;
 }
 .icons {
-  width: 8%;
+  width: 10%;
 }
 
 .hero {
@@ -147,9 +148,10 @@ p {
   gap: 4rem;
   margin: 4rem 0px;
   flex-wrap: wrap;
+  align-items: center;
 }
 .companylg {
-  height: 40px;
+  height: 10%;
 }
 
 .btm-section {
@@ -200,4 +202,38 @@ li {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 682px) {
+  .inner-hero img {
+    width: 25%;
+  }
+  .inner-hero {
+    max-width: 75%;
+    text-align: center;
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title-s1 {
+    max-width: 75%;
+  }
+
+  .section2 img {
+    width: 80%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .inner-s3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+  }
+
+  .inner-btm {
+    max-width: 75%;
+  }
 }
