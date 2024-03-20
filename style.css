@@ -116,7 +116,7 @@ p {
   padding: 40px 0px;
 }
 .section2 img {
-  width: 600px;
+  width: 50%;
   transition: all 0.3s ease-in-out;
 }
 .section2 img:hover {
@@ -146,6 +146,7 @@ p {
   justify-content: center;
   gap: 4rem;
   margin: 4rem 0px;
+  flex-wrap: wrap;
 }
 .companylg {
   height: 40px;
